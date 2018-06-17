@@ -1,0 +1,12 @@
+ul{
+	list-style-type: none;
+	-webkit-padding-start: 20px;
+}
+li > span{
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+}
+li > .opened{
+	background: #cceeff;
+}

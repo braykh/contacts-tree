@@ -1,0 +1,5 @@
+<ul ng-if="model">
+	<li ng-repeat="contact in model"  class="contact_{{contact.id}}">
+		<span ng-click="toggleContacts(contact)" class="{{contact.collapsed == false?'opened':''}}">{{contact.name}}</span>
+	</li>
+</ul>
